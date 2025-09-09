@@ -1,8 +1,7 @@
 # Brain Tumor Classification Using CNNs and Transfer Learning
 
 ## Overview
-This project focuses on classifying brain MRI images into four categories: **glioma**, **meningioma**, **notumor**, and **pituitary**. We explore multiple convolutional neural network (CNN) architectures, regularization techniques, and transfer learning models (MobileNetV2 and ResNet50) to achieve optimal performance. The project also includes a Streamlit web app for testing uploaded MRI images with any of the trained models.
-
+This project focuses on classifying brain MRI images into four categories: **glioma**, **meningioma**, **notumor**, and **pituitary**. We explore multiple convolutional neural network (CNN) architectures, regularization techniques, and transfer learning models (MobileNetV2 and ResNet50) to achieve optimal performance. 
 ---
 
 ## Dataset
@@ -72,7 +71,7 @@ We trained 20 different models in phases:
 - Optimizers: **Adam**, **SGD**, **RMSprop**  
 - Loss: Sparse categorical cross-entropy  
 - Metrics: Accuracy  
-- Training performed on **CPU** due to GPU memory constraints (Quadro T2000 insufficient for large ResNet50 loads)  
+- Training performed on **CPU**.
 - Early stopping applied on validation loss to prevent overfitting  
 
 ---
